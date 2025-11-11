@@ -39,7 +39,7 @@ npm install
 npm start
 ```
 
-4. Open [http://localhost:3002](http://localhost:3002) to view the app in your browser.
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
 ## 🏗 Project Structure
 
