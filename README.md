@@ -39,22 +39,22 @@ npm install
 npm start
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+4. Open [http://localhost:3002](http://localhost:3002) to view the app in your browser.
 
 ## 🏗 Project Structure
 
 ```
 src/
 ├── components/          # React components
-│   ├── UserListContainer.tsx   # Main container component
-│   ├── UserList.tsx           # User list display
-│   ├── UserCard.tsx           # Individual user card
+│   ├── PostListContainer.tsx   # Main container component
+│   ├── PostList.tsx           # Post list display
+│   ├── PostCard.tsx           # Individual post card
 │   ├── Pagination.tsx         # Pagination controls
 │   ├── SkeletonLoader.tsx     # Loading skeleton
 │   ├── LoadingSpinner.tsx     # Spinner component
 │   └── ErrorMessage.tsx       # Error handling
 ├── hooks/              # Custom React hooks
-│   └── useUsers.ts     # User data fetching hook
+│   └── usePosts.ts     # Post data fetching hook
 ├── services/           # API service layer
 │   └── api.ts          # API functions
 ├── types/              # TypeScript type definitions
@@ -69,9 +69,9 @@ src/
 The application uses JSONPlaceholder API for demo data:
 
 - **Base URL**: `https://jsonplaceholder.typicode.com`
-- **Endpoint**: `/users`
-- **Pagination**: Simulated client-side (5 users per page)
-- **Total Users**: 10 users from JSONPlaceholder
+- **Endpoint**: `/posts`
+- **Pagination**: Simulated client-side (5 posts per page)
+- **Total Posts**: 100 posts from JSONPlaceholder
 
 ### API Response Format
 
